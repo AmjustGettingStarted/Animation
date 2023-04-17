@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://www.xtrafondos.com/wallpapers/vertical/anime-mix-3109.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 50px !important;
+  /* background-color: white; */
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+#mytext {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+
+#mytext:hover {
+  font-size: 50px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+img {
+  border-radius: 5px;
+  height: 120px;
+  width: 100%;
+  box-shadow: rgba(253, 253, 255, 0.984) 0px 50px 100px -20px,
+    rgba(249, 246, 246, 0.984) 0px 30px 60px -30px,
+    rgba(246, 249, 249, 0.993) 0px -2px 6px 0px inset;
+  margin-top: 20px;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+
+img:hover,
+img:focus {
+  cursor: pointer;
+  border: 10px solid white;
+}
+
+#img-section {
+  margin-top: 50px !important;
+}
